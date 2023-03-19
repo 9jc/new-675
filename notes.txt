@@ -1,0 +1,22 @@
+First we learn how to install github in your operating system 
+
+in Linux it is already installed but incase its not 
+you can install using the command 
+
+sudo apt install git [In Debain Based Oprating System]
+        or
+paru -Sy git[Arch based distributions]
+
+then you need to check the git version 
+- git --version
+
+Add your github username and github email
+git config --global user.name "9jc"
+git config --global user.email "myemail.com"
+
+then make a director for the program our commiting in the github
+mkdir New_program
+cd New_program
+
+then you intiate git init
+- git init
